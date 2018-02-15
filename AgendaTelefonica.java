@@ -26,4 +26,9 @@ public class AgendaTelefonica
     {
         System.out.println(agenda.get(name));
     }
+    
+    public void printAllNames()
+    {
+        System.out.println(agenda.keySet());
+    }
 }
